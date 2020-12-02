@@ -1,0 +1,106 @@
+/* Color Palette
+
+maroon #5F0F40;
+red #9A031E;
+orange #FB8B24;
+burnorange #E36414;
+teal #0F4C5C; 
+*/
+.outside_div {
+    width: 100vw;
+    height: 1000px;
+}
+
+/* background colors */
+.bg_grey {
+    background-color: rgb(237, 237, 237);
+}
+
+.bg_maroon {
+    background-color: #88165c;
+}
+.bg_red {
+    background-color: #9A031E;
+}
+.bg_orange {
+    background-color: #f3a965;
+}
+.bg_burntorange {
+    background-color: #E36414;
+}
+.bg_teal {
+    background-color: #0F4C5C;
+}
+
+/* header */
+
+header {
+    height: 200px;
+    width: 100vw;
+}
+
+.rest_name {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.nav_list{
+    color: #E36414;
+}
+
+/* text colors */
+a:hover{
+    color: #0F4C5C;
+    text-decoration: none;
+}
+
+/* main section */
+.main{
+    width: 100vw;
+    height: 100vh;
+} 
+/* 
+img{
+    width: 100%;
+    height: auto;
+} */
+
+/* main {
+    background-image: url("../images/redchilibowl.webp");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  } */
+  .parallax { 
+    /* The image used */
+    background-image: url("../images/redchilibowl.webp");
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .opacity{
+      background-color: black;
+      opacity: 50%;
+  }
+  
+  .z20{
+      z-index: 20;
+  }
+  .z10{
+      z-index: 10;
+  }
+  .z5{
+      z-index: 5;
+  }
+
+
+/* footer */
+footer {
+    height: 10%;
+}
+
+
