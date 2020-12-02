@@ -56,8 +56,12 @@ a:hover{
 /* main section */
 .main{
     width: 100vw;
-    height: 100vh;
+    height: 900px;
 } 
+.subfont {
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
 /* 
 img{
     width: 100%;
@@ -71,7 +75,7 @@ img{
   } */
   .parallax { 
     /* The image used */
-    background-image: url("../images/redchilibowl.webp");
+    background-image: url("../images/redchilibowl_opacity.jpg");
     /* Full height */
     height: 100%; 
     /* Create the parallax scrolling effect */
@@ -84,7 +88,7 @@ img{
 
   .opacity{
       background-color: black;
-      opacity: 50%;
+      
   }
   
   .z20{
@@ -100,7 +104,7 @@ img{
 
 /* footer */
 footer {
-    height: 10%;
+    height: 8%;
 }
 
 
